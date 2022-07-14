@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "suit testing">
+
+    <test name = "ChromeTest">
+        <classes>
+            <class name = "tests.WebTestGoogle" />
+        </classes>
+    </test>
+
+    <test name = "AmazonTest">
+        <classes>
+            <class name = "tests.TestAmazon" />
+        </classes>
+    </test>
+
+</suite>
