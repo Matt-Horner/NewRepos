@@ -18,7 +18,7 @@ public class TestInit {
     @AfterMethod
     public void tearDown(){
         driver.quit();
-    }
+   }
 
     public void sleep(int s){
         try {
@@ -29,7 +29,7 @@ public class TestInit {
     }
 
     public void goToGoogle() {driver.get("https://www.google.com.ua/");}
+    public void goToRozetka() {driver.get("https://rozetka.com.ua/ua/");}
 
-    public void goToYahoo() {driver.get("https://www.yahoo.com/");}
 
 }
